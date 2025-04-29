@@ -1,5 +1,6 @@
 body {
   background-color: rgba(213, 226, 235, 1);
   color: white; rgba(71, 83, 92, 1);
-  font: times;
+  font-family: times;
+  padding: 30px;
 }
