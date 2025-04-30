@@ -21,4 +21,4 @@ jobs:
       uses: actions/upload-artifact@v3
       with:
         name: webpage-pdf
-        path: ./output.pdf
+        path: output.pdf
