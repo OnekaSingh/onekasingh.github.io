@@ -1,4 +1,4 @@
-- name: Webpage to PDF
+ name: Webpage to PDF
   uses: misaelnieto/web_to_pdf_action@v0.3.1
   with:
     webPageURL: https://www.onekasingh.github.io
