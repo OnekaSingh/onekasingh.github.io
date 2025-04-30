@@ -100,18 +100,8 @@
 	I am leading a self-motivated quantum research project with a group of dedicated peers at my current institution. My previous knowledge on the matter has come from my classes, previous independent research, and particularly Mark Fox's textbook on Quantum Optics: An Introduction. 
 	Through board presentations and prototype designs, my project earned a +$5,000 grant. Our team consists of 6 curious students and 2 physics professors as our advisors. We aim to publish our research by August 2025.
 <br> <br> Abstract: <br> <br>
-Our experiment introduces a model for a basic NV Diamond quantum computer currently targeting 1 and 2-qubit gates. Our ultimate target is creating an NV Diamond ensemble and experimentally deducing the upper limit of our structure's qubit scalability.
-Our design utilizes an optical tweezers setup to capture a nano NV-Diamond. Using a trap and an initialization laser, in the
-presence of a static magnetic field, the lone-electron-pair generated in the NV-vacancy forms a spin triplet--the basis of our qubit.
-Quantum gates are implemented by manipulating this triplet state with microwave pulses, where the pulse duration dictates the
-gate operation; we read the state of our system through emitted fluorescence through ODMR. This system follows the Jaynes-Cummings
-model, and the computations performed can be visually represented on the Bloch Sphere.
-This research project encompasses a variety of our curiosity-motivated questions: What types of single and multi-qubit gates
-can be implemented on our setup, and what tangible algorithms can we build? How can we optimize hardware for reliable and
-accurate performance? What conditions enhance quantum coherence while minimizing resource usage? What observable
-quantum phenomena arise, and are there discernible patterns in these behaviors?
-With these inquiries, we outline our experimental framework, conduct the experiment, document our observations, and report
-on our findings and reflections in our publication.
+Our experiment introduces a model for a basic NV Diamond quantum computer currently targeting 1 and 2-qubit gates. Our ultimate target is creating an NV Diamond ensemble and experimentally deducing the upper limit of our structure's qubit scalability. Our design utilizes an optical tweezers setup to capture a nano NV-Diamond. Using a trap and an initialization laser, in the presence of a static magnetic field, the lone-electron-pair generated in the NV-vacancy forms a spin triplet--the basis of our qubit. Quantum gates are implemented by manipulating this triplet state with microwave pulses, where the pulse duration dictates the gate operation; we read the state of our system through emitted fluorescence through ODMR. This system follows the Jaynes-Cummings model, and the computations performed can be visually represented on the Bloch Sphere. This research project encompasses a variety of our curiosity-motivated questions: What types of single and multi-qubit gates can be implemented on our setup? How can we optimize hardware for reliable and accurate performance? What conditions enhance quantum coherence while minimizing resource usage? What observable quantum phenomena arise, and are there discernible patterns in these behaviors? With these inquiries, we outline our experimental framework, conduct the experiment, document our observations, and report on our findings and reflections in our publication.
+
   </p>
 	<p>Takeaways:</p>
 	<ul>
@@ -130,31 +120,13 @@ on our findings and reflections in our publication.
   <h3> Quantum Complexity and a Deep Analysis of the HHL Algorithm </h3> <a href = "https://drive.google.com/file/d/1mAAgO-96HL3K0Kz6arrMikFRVLohRUOs/view?usp=sharing">(View Paper)</a>
 	<br> <a href = "https://www.canva.com/design/DAGLLiXLqmU/keY2XuBmmR9jYQRTEUEIXA/view?utm_content=DAGLLiXLqmU&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=heedad5b8a1">(View Poster)</a>
   <p> Foreword: <br> <br>
-	This research was conducted as part of the BeyondPhysics Quantum Research Program, where over 30 teams
-	explored diverse topics in quantum computing. My partner and I focused on quantum computational complexity, collaborating
-	closely under the guidance of experienced mentor Andreea Lefterovici. Together, we developed a research paper and poster, which we presented
-	within our group. Our work was recognized for its quality and nominated for presentation to all program participants, ultimately
-	earning us 2nd place in the program.
+	This research was conducted as part of the BeyondPhysics Quantum Research Program, where over 30 teams explored diverse topics in quantum computing. My partner and I focused on quantum computational complexity, collaborating closely under the guidance of experienced mentor Andreea Lefterovici. Together, we developed a research paper and poster, which we presented.
 	<br> <br> Abstract: <br> <br>
-	We present the classical and quantum complexity of linear system problems (LSP), comparing the asymptotic performance
-	of the classical Conjugate Gradient Method (CGM) and the quantum Harrow-Hassidim-Lloyd (HHL) algorithm using Big-O notation.
-	We then lightly explain HHL’s sub-components, with the primary objective of highlighting the quantum algorithm’s response to
-	solving the LSP task, and its corresponding scalability (input size to time). <br>
-	 With an overview of computational complexity classes, we classify CGM and HHL accordingly, and ponder open questions
-	in complexity theory, such as the relationship between P and NP, as well as the position of BQP within PSPACE. We then compare
-	CGM--the fastest classical algorithm for LSP--to the quantum LSP solver, HHL, emphasizing the distinction between their classical
-	and quantum approaches. <br>
-	 Next, we dissect HHL into its core sub-algorithms, including the Inverse Quantum Fourier Transform (IQFT), Quantum Phase
-	Estimation (QPE) and Quantum Fourier Transform (QFT). This section delves into the mathematical principles underpinning each
-	quantum gate, showing the way quantum algorithms like HHL can achieve superior time complexity for higher input sizes.
-	 Validating our proof of concept, we implement CGM in Python and analyze its performance across varying input sizes,
-	referencing Big-O expectations. We then simulate HHL on some of IBM’s Qiskit backends, taking into account input limitations.
-	Conclusively, we discuss current quantum computing architecture limitations that hinder the practicality of quantum algorithms
-	(HHL is better suited to fault-tolerant quantum computers due to hardware restrictions and decoherence). </p>
+	We present the classical and quantum complexity of linear system problems (LSP), comparing the asymptotic performance of the classical CGM algorithm and the quantum HHL algorithm using Big-O notation. We then lightly explain HHL’s sub-components. With an overview of computational complexity classes, we classify CGM and HHL accordingly, and ponder open questions in complexity theory, such as the relationship between P and NP, as well as the position of BQP within PSPACE. We then compare CGM--the fastest classical algorithm for LSP--to the quantum LSP solver, HHL, emphasizing the distinction between their classical and quantum approaches. We dissect HHL into its core sub-algorithms: IQFT, QPE, QFT. We also talk about the mathematical principles underpinning each quantum gate, showing the way quantum algorithms like HHL can achieve superior time complexity for higher input sizes. Validating our proof of concept, we implement CGM in Python and analyze its performance across varying input sizes, referencing Big-O expectations. We then simulate HHL on some of IBM’s Qiskit backends, taking into account input limitations. Finally, we discuss current quantum computing architecture limitations that hinder the practicality of quantum algorithms (HHL is better suited to fault-tolerant quantum computers due to hardware restrictions and decoherence).</p>
     <p>Takeaways:</p> 
     <ul>
 	<li>Studied complexity classes, the classical problem of P, NP, and BQP.</li>
-	<li>Understood the IQFT, QFT, and QPE Algorithms, their quantum circuits, and how they work both mathematically, algorithmically </li>
+	<li>Understood the IQFT, QFT, and QPE Algorithms, their quantum circuits, and how they work both mathematically and algorithmically </li>
 	<li>Compared the fastest classical linear solver (CGM) to HHL and derived an experimental definition of "Quantum Advantage" through compared simulated results </li>
 	<li>Analyzed the limitations of HHL due to quantum hardware as we ran our code on IBM's open source quantum computers, and researched environmental sources of noise and mitigating decoherence </li>
 	<li>Presented a poster presentation consisting of graphs, the HHL gates, the circuit, and complexity classes </li>
@@ -177,8 +149,8 @@ on our findings and reflections in our publication.
 <br>
 <div>
 	<h3>Relatively Simple Physics Club President at West Valley College</h3>
-	<p>To promote a curious and academic interest in modern physics, I founded Relatively Simple Physics to make modern physics topics like general relativity simple to understand. Modern physics is a field that is not intensively taught at community college. Seeing there was no physics club at my school, I wanted to both fill that gap and open the world of modern physics up to those who were unfamiliar with its wonders.  Working closely with the physics department, we conjured on different topics, from the quantum scale up to the astrophysics realms, deciphering the underlying equations and principles of the modern physics world. Many of these mind-boggling concepts introduced a blurred line between science and philosophy, which is a prominent feature in cutting-edge research. 
-           This club helped me build my teamwork and project management skills, along with providing seminars to share my existing quantum computing knowledge. I connected across disciplines, building strong connections with our school's mathematics and physics deans. I built a community of interested students who explore and question the upper and lower boundaries of our universe.</p>
+	<p>To promote a curious and academic interest in modern physics, I founded Relatively Simple Physics to make modern physics topics like general relativity simple to understand. Working closely with the physics department, we conjured on topics from the quantum scale up to the astrophysics realms, deciphering the underlying equations and principles of the modern physics world. These modern ideas introduced a blurred line between science and philosophy. This club helped me build my teamwork and project management skills, and I connected across disciplines, building strong connections with our school's mathematics and physics faculty. I built a community of interested students who explore and question the upper and lower boundaries of our universe.
+</p>
 </div>
 <br>
 <div>
