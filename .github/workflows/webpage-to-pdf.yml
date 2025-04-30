@@ -1,9 +1,7 @@
 name: Webpage to PDF
 
 on:
-  workflow_dispatch:  # Allows manual run from GitHub UI
-  push:
-    branches: [ main ]  # Optional: runs on push to main branch
+  workflow_dispatch:
 
 jobs:
   convert-to-pdf:
@@ -14,9 +12,9 @@ jobs:
       uses: actions/checkout@v3
 
     - name: Convert Webpage to PDF
-      uses: rockbenben/webpage-to-pdf@v1
+      uses: rockbenben/webpage-to-pdf-action@v1
       with:
-        url: 'https://yourwebsite.com'  # Replace with your website URL
+        url: 'https://yourwebsite.com'   # Replace with your site
         output: 'output.pdf'
 
     - name: Upload PDF artifact
